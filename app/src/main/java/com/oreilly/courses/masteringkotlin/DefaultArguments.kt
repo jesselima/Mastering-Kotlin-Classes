@@ -28,4 +28,9 @@ class Test {
         searchFor(array)
         searchFor(array, 0, 1, 1)
     }
+
+    fun callUsingNamedArguments() {
+        val targetArray = intArrayOf(1, 2, 3, 4, 5)
+        searchFor(startIndex = 0, searchNumber = 2, endIndex = targetArray.size - 1, array = targetArray)
+    }
 }

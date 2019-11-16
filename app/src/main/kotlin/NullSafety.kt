@@ -10,7 +10,7 @@ lateinit var someLateInitString: String
 
 fun assignString() {
 
-    someStringNotNullable = null
+//    someStringNotNullable = null // TODO -> Uncomment for tests
 
     nullableString = null
 
@@ -22,7 +22,8 @@ fun explicitNullAssertion() {
 }
 
 fun otherCases() {
-    val len1 = nullableString.length
+//    val len1 = nullableString.length // TODO -> Uncomment for tests
+
     // Safe Access operator "?"
     // Very important to access methods that might be null
     val len2 = nullableString?.length

@@ -1,4 +1,4 @@
-package advancedkotlin
+package advancedkotlin.generics
 
 import java.io.Closeable
 

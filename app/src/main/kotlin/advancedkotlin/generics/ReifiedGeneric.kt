@@ -1,4 +1,4 @@
-package advancedkotlin
+package advancedkotlin.generics
 
 /**
  * Reified Generic
